@@ -10,7 +10,8 @@ body {
 }
 
 .container {
-    width: 50%;
+    width: 40%;
+    height: auto;
     margin: 10% auto;
     display: flex;
     background-color: white;
@@ -36,11 +37,33 @@ body {
     border-radius: 50%;
     background-color: hsl(241, 81%, 54%);
     text-align: center;
-    margin: 35px;
-    padding: 35px;
+    margin: 50px 50px 0 50px;
+    padding: 50px;
 }
 .score h1 {
     color: hsl(0, 0%, 100%);
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    font-size: 55px;
+}
 
+.score h4 {
+    color: hsl(241, 100%, 89%);
+}
+
+.result-container h2 {
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+}
+
+.result-container p {
+    margin: 20px 5px;
+    padding: 0px 20px;
+}
+
+.summary-container {
+    margin: 20px;
+}
+
+.summary-container h2 {
+    margin-bottom: 15px;
 }
