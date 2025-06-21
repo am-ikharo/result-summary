@@ -21,4 +21,10 @@ body {
     width: 50%;
     box-sizing: border-box;
     background-color: hsl(252, 100%, 67%);
+    color: hsl(221, 100%, 96%);
+}
+
+.result-container h3 {
+    text-align: center;
+    
 }
