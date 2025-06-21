@@ -6,10 +6,19 @@
 
 body {
     width: 100%;
+    background-color: hsl(221, 100%, 96%);
 }
 
 .container {
-    width: 60px;
-    margin: auto;
+    width: 30%;
+    margin: 15% auto;
     display: flex;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.result-container {
+    width: 50%;
+    box-sizing: border-box;
+    background-color: hsl(252, 100%, 67%);
 }
