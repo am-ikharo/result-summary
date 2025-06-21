@@ -15,16 +15,31 @@ body {
     display: flex;
     background-color: white;
     box-sizing: border-box;
+    border-radius: 8%;
 }
 
 .result-container {
     width: 50%;
     box-sizing: border-box;
     background-color: hsl(252, 100%, 67%);
-    color: hsl(221, 100%, 96%);
+    color: hsl(241, 100%, 89%);
+    border-radius: 8%;
 }
 
 .result-container h3 {
     text-align: center;
-    
+    margin: 20px;
+}
+
+.score {
+    border-radius: 50%;
+    background-color: hsl(241, 81%, 54%);
+    text-align: center;
+    margin: 35px;
+    padding: 35px;
+}
+.score h1 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 8px;
+
 }
