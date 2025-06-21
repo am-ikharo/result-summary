@@ -10,8 +10,8 @@ body {
 }
 
 .container {
-    width: 30%;
-    margin: 15% auto;
+    width: 50%;
+    margin: 10% auto;
     display: flex;
     background-color: white;
     box-sizing: border-box;
@@ -24,6 +24,7 @@ body {
     background-color: hsl(252, 100%, 67%);
     color: hsl(241, 100%, 89%);
     border-radius: 8%;
+    text-align: center;
 }
 
 .result-container h3 {
