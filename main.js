@@ -20,3 +20,6 @@
     "icon": "./assets/images/icon-visual.svg"
   }
 ]
+
+
+const verbal = 45;
